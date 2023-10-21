@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        details {
+          width: 80%;
+          margin: 0 auto;
+          background: rgb(162, 185, 255);
+          margin-bottom: 1rem;
+          box-shadow: 0 0.1rem 1rem -0.5rem rgba(164, 167, 255, 0.4);
+          border-radius: 5px;
+          overflow: hidden;
+          transition: all 0.3s ease; /* Added smooth transition for the details element */
+        }
+    
+        summary {
+          padding: 1rem;
+          display: block;
+          background: #ffffff;
+          padding-left: 2.2rem;
+          position: relative;
+          cursor: pointer;
+          font-family: "Your-Attractive-Font", sans-serif; /* Change to your attractive font */
+        }
+    
+        summary:before {
+          content: '';
+          border-width: 0.4rem;
+          border-style: solid;
+          border-color: transparent transparent transparent rgb(8, 53, 255);
+          position: absolute;
+          top: 1.3rem;
+          left: 1rem;
+          transform: rotate(0);
+          transform-origin: 0.2rem 50%;
+          transition: 0.25s transform ease;
+        }
+    
+        /* THE MAGIC 🧙‍♀ */
+        details[open] > summary:before {
+          transform: rotate(90deg);
+        }
+    
+        details summary::-webkit-details-marker {
+          display: none;
+        }
+    
+        details > ul {
+          padding-bottom: 1rem;
+          margin-bottom: 0;
+          list-style: none; /* Remove list dot */
+        }
+    
+        body {
+          background: linear-gradient(to bottom, #4da3e4, #ffffff);
+          height: 100vh;
+          font-family: "Your-Attractive-Font", sans-serif; /* Change to your attractive font */
+          color: rgb(8, 53, 255);
+          line-height: 1.5;
+          letter-spacing: 1px;
+          margin-top: 2rem;
+        }
+    
+        /* Remove underlines for list items */
+        ul li a {
+          text-decoration: none;
+        }
+    
+        /* Add margin to shift the alignment */
+        details:nth-child(2) {
+          margin-top: 1rem; /* Adjust as needed */
+        }
+      </style>
+  </style>
+</head>
+<body>
+  <details>
+    <summary>Virtual Reality Relaxation</summary>
+    <ul>
+      <li>
+        <a href="https://youtu.be/7AkbUfZjS5k?si=PzbHcf23HIMgmvhU">Virtual Nature 360</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/pXfUhkK_QRQ?si>GvpnESnOzy8nWk8h">Four Season Forest View</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/eKumVFvGHFA?si=X6ZE3B-WqTQUWC2P">Under Water Life</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/MgJITGvVfR0?si=yGLpw9f5qcJ6q8uv">Maldives</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/P3-lbPpxUEw?si=0HQLOxxmPzzKwFmp">Space Flight</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/Y0eMbkQqg8Y?si=KXRsVQf2Is8ETTMu">Between The worlds</a>
+      </li>
+    </ul>
+  </details>
+  <details>
+    <summary>Lo-fi Music</summary>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/live/tQK5FuNlwWM?si=oh7GOnqF9-jtZLKI">A chill Day</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/JdqL89ZZwFw?si=mpOc-D5c6T2eDpqE">Quiet Place</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/i-DJquV-T98?si=KZg10xqMQm8gfiFu">Serenity</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/rtTI1rh9U5M?si=qxPL43ZozChwArAo">Night chill</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/nhZyPQzx7JI?si=gTy_gQohJHLzYrei">Stop Overthinking</a>
+      </li>
+      <li>
+        <a href="https://youtu.be/TaINndH-bZ0?si=Ka4kQ5LvXrPqePBL">Chill Morning</a>
+      </li>
+    </ul>
+  </details>
+  <details>
+    <summary>Tell us your story</summary>
+    <ul>
+      
+    </ul>
+  </details>
+  <details>
+    <summary>Journaling</summary>
+    <ul>
+      <li><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fkeep.google.com%2Fu%2F0%2F&followup=https%3A%2F%2Fkeep.google.com%2Fu%2F0%2F&ifkv=AVQVeyzyvDAG0gRTMms4A0toEpXrbk_FMzBEbAsL34U_6deEKdlo9QAcmFmHZ8j1_nRblkvoRqCwDA&ltmpl=keep&passive=1209600&service=memento&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1577432001%3A1697903661451909&theme=glif">E-Diary</a>
+    </ul>
+
+</body>
+</html>
